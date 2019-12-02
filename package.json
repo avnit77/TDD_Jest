@@ -1,0 +1,30 @@
+{
+  "name": "01-tdd-types",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "test:watch": "npm run test -- --watch",
+    "lint": "eslint '**/*.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "eslint": "^6.1.0",
+    "jest": "^24.9.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avnit77/TDD_Jest.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/avnit77/TDD_Jest/issues"
+  },
+  "homepage": "https://github.com/avnit77/TDD_Jest#readme"
+}
